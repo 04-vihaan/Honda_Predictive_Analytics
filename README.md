@@ -21,7 +21,7 @@ The project demonstrates three main phases:
 
 ## Run Order
 To reproduce this pipeline locally:
-1. Base dataset generated outside this repo (load the provided 5k-row sample CSV into `data/raw/`).
+1. Base dataset generated outside this repo (load the provided full 100,000-row CSV into `data/raw/`).
 2. Execute `sql/schema.sql` *(Creates the target tables in SQL Server)*
 3. `python -m src.expand_suppliers`
 4. `python -m src.train_model` *(Note: Architecture demonstration only)*
